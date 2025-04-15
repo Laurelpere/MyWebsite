@@ -89,12 +89,13 @@ nav ul li a {
     transition: transform 0.3s ease-in-out;
 }
 
-nav{
+nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: var(--secondary);
+    width: 100%;
     padding: 10px 20px;
     z-index: 1000;
 }
@@ -233,6 +234,8 @@ section h2 {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px 10px;
@@ -260,7 +263,6 @@ section h2 {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #333;
     color: var(--accent);
 }
 
